@@ -1,0 +1,40 @@
+#root {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+
+    border: 5px inset rgb(116, 105, 182);
+    background-color: rgb(228, 186, 222);
+    color: rgb(76, 67, 128);
+}
+
+.container {
+    width: 500px;
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 5px dotted rgb(116, 105, 182);
+    border-radius: 20px;
+    background-color: rgb(173, 136, 198);
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.label {
+    width: 50px;
+}
+
+.titleInput,
+.contentInput {
+    margin-right: 5px;
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+}

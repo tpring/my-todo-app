@@ -1,0 +1,47 @@
+/* 할 일 목록 컨테이너 */
+.list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+    border: 5px dotted rgb(116, 105, 182);
+    background-color: rgb(173, 136, 198);
+}
+
+/* 미완료된 할 일 목록 */
+.unconplete {
+    width: 45%;
+}
+
+/* 완료된 할 일 목록 */
+.conplete {
+    width: 45%;
+}
+
+/* 카드 스타일 */
+.card {
+    background-color: rgb(228, 186, 222);
+    border: 1px solid rgb(76, 67, 128);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* 버튼 스타일 */
+.button {
+    color: rgb(76, 67, 128);
+    background-color: rgb(255, 230, 230);
+}
+.buttons {
+    margin-right: 5px;
+    color: rgb(76, 67, 128);
+    background-color: rgb(255, 230, 230);
+}
